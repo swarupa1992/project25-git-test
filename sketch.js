@@ -18,11 +18,11 @@ function setup() {
 	
 	paperObject=new paper(200,450,70);
 	groundObject=new ground(width/2,670,width,20);
-	dustbinObj=new dustbin(1200,650);
+	dustbinObj=new dustbin(1100,650);//width changed
 	//Create a Ground
 	
 
-	var render = Render.create({
+	/*var render = Render.create({
 	  element: document.body,
 	  engine: engine,
 	  options: {
@@ -30,10 +30,10 @@ function setup() {
 	    height: 700,
 	    wireframes: false
 	  }
-	});
+	});*/
 
 	Engine.run(engine);
-	Render.run(render);
+	/*Render.run(render);*/
   
 }
 
